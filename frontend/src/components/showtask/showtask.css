@@ -1,0 +1,25 @@
+.Showtask-layout {
+  /* border: 2px solid; */
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  font-family: "Alkatra", cursive;
+  font-family: "Cedarville Cursive", cursive;
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.Showtask-layout-icons {
+  display: flex;
+  gap: 14px;
+}
+
+.Showtask-layout-update {
+  color: green;
+}
+
+.Showtask-layout-delete {
+  color: brown;
+}
